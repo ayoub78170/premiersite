@@ -63,10 +63,8 @@ button{
     opacity: 80%;
 }
  
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+button:hover{
+    background-color: rgba(0, 136, 169, 0);
 }
 
 a, button {
@@ -75,6 +73,12 @@ a, button {
     font-size: 16px;
     color: black;
     text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 #containerproduits{
@@ -104,6 +108,7 @@ a, button {
     margin: 20px;
     width: 400px;
     text-align: center;
+    background-color: rgb(72, 151, 216);
 }
 
 
