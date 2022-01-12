@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(155, 82, 224);
+}
+
+#nav{
+    border: 5px solid blue;
+    margin: 20px;
+    width: 100%;
+}
+
+#containerproduits{
+    border: 5px solid blue;
+    margin: 20px;
+    display: flex;
+}
+
+.carte{
+    border: 5px solid blue;
+    margin: 20px;
+}
+
+.carteimage{
+    border: 5px solid blue;
+    margin: 20px;
+    background-image: url(fleur.jpg);
+}
+
+.cartetexte{
+    border: 5px solid blue;
+    margin: 20px;
+}
+
+.information{
+    border: 5px solid blue;
+    margin: 20px;
+}
+
+#pieddepage{
+    border: 5px solid blue;
+    margin: 20px;
+    width: 100%;
+}

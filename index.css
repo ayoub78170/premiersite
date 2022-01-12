@@ -23,12 +23,12 @@ a, button {
     color: black;
     text-decoration: none;
 }
-nav {
+/* nav {
     border-bottom: 3px solid black;
     align-items: center;
     display: flex;
     margin-bottom: 20px;
-}
+} */
 
 header {
     display: flex;
@@ -80,13 +80,7 @@ button:hover{
     background-image: url(https://img-3.journaldesfemmes.fr/ehCs5gI_mbYq1hYSH3M1CWHFMho=/1500x/smart/0583b68e4df94592a39178fc1c412ef5/ccmcms-jdf/19188372.jpg);
 } */
 
-footer{
-    flex-shrink: 0;
-    border-top: 1px dashed #000;
-    width: 100%;
-    background: #f1f1f1;
-    opacity: 100%;
-}
+
 
 .contenu-footer{
     width: 1200px;
@@ -103,27 +97,23 @@ header a{
     font-size: 25px;
 }
 
-h1{
-    font-size: 35px;
-}
-
 section{
     text-align: center;
-    /* background-image: url(https://img-3.journaldesfemmes.fr/ehCs5gI_mbYq1hYSH3M1CWHFMho=/1500x/smart/0583b68e4df94592a39178fc1c412ef5/ccmcms-jdf/19188372.jpg); */
-    width: 500px;
-    height: 500px;
-    align-items: center;
-    margin-left: 32%;
-}
-
-/* #image{
     background-image: url(https://img-3.journaldesfemmes.fr/ehCs5gI_mbYq1hYSH3M1CWHFMho=/1500x/smart/0583b68e4df94592a39178fc1c412ef5/ccmcms-jdf/19188372.jpg);
     width: 500px;
     height: 500px;
     align-items: center;
     margin-left: 32%;
-} */
+}
 
-#image1{
-    
+footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #f1f1f1;
+    opacity: 100%;
+}
+
+div image{
+    display: block;
 }
