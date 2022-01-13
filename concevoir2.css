@@ -84,6 +84,7 @@ a, button {
 #containerproduits{
     border: 5px solid rgb(0, 0, 0);
     display: flex;
+    flex-wrap: wrap;
 }
 
 .carte{
@@ -95,6 +96,12 @@ a, button {
 .carteimage{
    
     margin: 20px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .cartetexte{
@@ -111,10 +118,6 @@ a, button {
     background-color: rgb(72, 151, 216);
 }
 
-
-
-img{
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+footer{
+    text-align: text;
 }
