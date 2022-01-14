@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     padding: 30px 10%;
     background-image: url(https://www.lerobert.com/sites/default/files/scald_image/dis-moi-robert-droles-d-expressions-etre-fleur-bleue.jpg);
+    top: 0%;
 }
 
 h1{
@@ -22,6 +23,8 @@ h1{
     border: 5px solid blue;
     margin: 0px;
     width: 100%;
+    position: absolute;
+    top: 0%;
 }
 
 .nav li a:hover{
@@ -104,6 +107,10 @@ img{
     object-fit: cover;
 }
 
+.logo{
+    display: flex;
+}
+
 .cartetexte{
    text-align: center;
     margin: 20px;
@@ -118,6 +125,17 @@ img{
     background-color: rgb(72, 151, 216);
 }
 
-footer{
+.footer{
     text-align: text;
+
+}
+
+.image02{
+    width: 20px;
+    height: 20px;
+}
+
+.contenue-footer{
+    display: flex;
+    justify-content: space-between;
 }
