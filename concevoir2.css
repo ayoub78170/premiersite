@@ -17,7 +17,8 @@ header {
 
 nav{
     position: fixed;
-    width: 100%;
+    left: 0;
+    right: 0;
     background: rgb(34, 34, 34);
     font-family: montserrat;
 }
@@ -163,4 +164,8 @@ img{
     width: 120px;
     height: 120px;
     object-fit: cover;
+}
+
+.proposfooter {
+    text-align: center;
 }
