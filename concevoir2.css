@@ -129,6 +129,19 @@ img{
     color: rgb(2, 7, 54);
 }
 
+.selection{
+    border: 5px solid blue;
+    margin: 20px;
+    background-color: rgb(72, 151, 216);
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
+}
+
+.selection p{
+    font-size: xx-large;
+}
+
 .information{
     border: 5px solid blue;
     margin: 20px;
