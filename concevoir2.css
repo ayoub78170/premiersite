@@ -13,8 +13,6 @@ header {
     background-size: cover;
 }
 
-
-
 nav{
     position: fixed;
     left: 0;
@@ -25,7 +23,7 @@ nav{
 
 nav ul{
     padding: 0;
-    text-align: center;
+    text-align: end;
     margin: 0;
 }
 
@@ -147,6 +145,7 @@ img{
 .contenu-footer{
     display: flex;
     justify-content: space-between;
+
 }
 
 .imagefooter ul{
@@ -172,4 +171,15 @@ img{
 
 hr{
     color: rgb(0, 0, 19);
+}
+
+.proposfooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.proposfooter ul {
+    padding: 0;
+    text-align: center;
+    margin: 0;
 }
