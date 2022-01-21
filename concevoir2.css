@@ -3,6 +3,7 @@
 body{
     background-color: rgb(255, 255, 255);
     font-weight: bold;
+ 
 }
 
 
@@ -70,7 +71,7 @@ button{
 
 button{
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgb(10, 10, 10);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -103,7 +104,7 @@ a, button {
 }
 
 .carte{
-    border: 5px solid blue;
+    border: 5px solid rgb(0, 0, 0);
     margin: 20px;
     background-color: rgb(72, 151, 216);
 }
@@ -130,9 +131,11 @@ img{
 }
 
 .selection{
-    border: 5px solid blue;
+    border: 5px solid rgb(0, 0, 0);
     margin: 20px;
-    background-color: rgb(72, 151, 216);
+    background-image: url(afond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     width: 100%;
     font-size: xx-large;
@@ -142,12 +145,27 @@ img{
     font-size: xx-large;
 }
 
-.information{
-    border: 5px solid blue;
+.informationsup{
+    border: 5px solid rgb(0, 0, 0);
     margin: 20px;
     width: 400px;
     text-align: center;
     background-color: rgb(72, 151, 216);
+}
+
+.information{
+    border: 5px solid rgb(0, 0, 0);
+    margin: 20px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(72, 151, 216);
+}
+
+.information h3{
+    font-size: xx-large;
+}
+.information p{
+    font-size: x-large;
 }
 
 .footer{
@@ -196,3 +214,18 @@ hr{
     text-align: center;
     margin: 0;
 }
+
+.contact {
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 20px;
+    width: 40%;
+}
+
+.condition {
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 20px;
+    width: 40%;
+} 
+
